@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-11-10T03:19:58.771Z",
+  "total": 9,
+  "categories": [
+    {
+      "id": "bags",
+      "label": "包包",
+      "count": 3,
+      "photos": [
+        {
+          "src": "photos/bags/bags-sample-01.svg",
+          "file": "bags-sample-01.svg",
+          "title": "包包 · 示例 01"
+        },
+        {
+          "src": "photos/bags/bags-sample-02.svg",
+          "file": "bags-sample-02.svg",
+          "title": "包包 · 示例 02"
+        },
+        {
+          "src": "photos/bags/bags-sample-03.svg",
+          "file": "bags-sample-03.svg",
+          "title": "包包 · 示例 03"
+        }
+      ]
+    },
+    {
+      "id": "scarves",
+      "label": "围巾",
+      "count": 3,
+      "photos": [
+        {
+          "src": "photos/scarves/scarves-sample-01.svg",
+          "file": "scarves-sample-01.svg",
+          "title": "围巾 · 示例 01"
+        },
+        {
+          "src": "photos/scarves/scarves-sample-02.svg",
+          "file": "scarves-sample-02.svg",
+          "title": "围巾 · 示例 02"
+        },
+        {
+          "src": "photos/scarves/scarves-sample-03.svg",
+          "file": "scarves-sample-03.svg",
+          "title": "围巾 · 示例 03"
+        }
+      ]
+    },
+    {
+      "id": "watches",
+      "label": "手表",
+      "count": 3,
+      "photos": [
+        {
+          "src": "photos/watches/watches-sample-01.svg",
+          "file": "watches-sample-01.svg",
+          "title": "手表 · 示例 01"
+        },
+        {
+          "src": "photos/watches/watches-sample-02.svg",
+          "file": "watches-sample-02.svg",
+          "title": "手表 · 示例 02"
+        },
+        {
+          "src": "photos/watches/watches-sample-03.svg",
+          "file": "watches-sample-03.svg",
+          "title": "手表 · 示例 03"
+        }
+      ]
+    }
+  ]
+}

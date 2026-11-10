@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EFE9E0"/>
+      <stop offset="1" stop-color="#CFC4B3"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#g)"/>
+  <rect x="60" y="60" width="780" height="1080" fill="none" stroke="#6B5F4E" stroke-opacity="0.25" stroke-width="2"/>
+  <line x1="60" y1="600" x2="840" y2="600" stroke="#6B5F4E" stroke-opacity="0.12" stroke-width="1"/>
+  <line x1="450" y1="60" x2="450" y2="1140" stroke="#6B5F4E" stroke-opacity="0.12" stroke-width="1"/>
+  <text x="450" y="560" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="64" fill="#6B5F4E">包包示例图</text>
+  <text x="450" y="630" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="28" fill="#8C7F6C">bags-sample-02.svg</text>
+  <text x="450" y="690" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="24" fill="#8C7F6C" opacity="0.85">上传真实商品图后删除此文件</text>
+  <text x="450" y="1120" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="22" fill="#8C7F6C" opacity="0.7">SIMPLE GALLERY</text>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "name": "simple-photo-gallery",
+  "version": "1.0.0",
+  "private": true,
+  "description": "静态商品图库：箱包 / 围巾 / 手表，零依赖，GitHub + Vercel 部署",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-manifest.mjs",
+    "manifest": "node scripts/build-manifest.mjs",
+    "normalize": "node scripts/normalize-filenames.mjs",
+    "normalize:apply": "node scripts/normalize-filenames.mjs --apply",
+    "placeholders": "node scripts/make-placeholders.mjs",
+    "dev": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

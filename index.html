@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>简白图库 · 箱包 / 围巾 / 手表</title>
+<meta name="description" content="箱包、围巾、手表商品实拍图录。按类别浏览，点击放大查看。">
+<meta name="theme-color" content="#fbfaf8">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23171614'/%3E%3Ccircle cx='16' cy='16' r='6' fill='none' stroke='%23fbfaf8' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="./">SIMPLE<em>GALLERY</em></a>
+    <p class="tagline">箱包 · 围巾 · 手表</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero">
+    <p class="eyebrow">Product lookbook</p>
+    <h1>商品图录</h1>
+    <p class="lede">
+      共 <strong id="total">—</strong> 张实拍图，按类别浏览。点击图片放大，<kbd>←</kbd><kbd>→</kbd> 切换，<kbd>Esc</kbd> 关闭。
+    </p>
+  </section>
+
+  <nav id="filters" class="filters" aria-label="按类别筛选"></nav>
+
+  <section id="gallery" class="gallery" aria-live="polite"></section>
+
+  <section id="empty" class="empty" hidden>
+    <h2>图库还是空的</h2>
+    <p id="empty-reason" class="empty-reason"></p>
+    <ol class="empty-steps">
+      <li>把图片放进 <code>photos/bags</code>（包包）、<code>photos/scarves</code>（围巾）、<code>photos/watches</code>（手表）</li>
+      <li>执行 <code>npm run normalize:apply</code>，把中文 / 空格文件名改成英文</li>
+      <li>执行 <code>npm run build</code> 生成索引，刷新本页即可看到</li>
+    </ol>
+    <p class="empty-note">部署到 Vercel 后，上面第 2、3 步由平台自动完成，你只需要上传图片。</p>
+  </section>
+
+</main>
+
+<footer class="footer wrap">
+  <p>SIMPLE GALLERY · 静态图库 · 更新于 <span id="built-at">—</span></p>
+</footer>
+
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="图片放大查看" hidden>
+  <button class="lb-close" id="lb-close" type="button" aria-label="关闭">
+    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+  </button>
+  <button class="lb-nav lb-prev" id="lb-prev" type="button" aria-label="上一张">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M15 4L7 12l8 8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <figure class="lb-stage">
+    <img id="lb-img" alt="">
+    <figcaption>
+      <span id="lb-title" class="lb-title"></span>
+      <span id="lb-count" class="lb-count"></span>
+    </figcaption>
+  </figure>
+  <button class="lb-nav lb-next" id="lb-next" type="button" aria-label="下一张">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M9 4l8 8-8 8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+</div>
+
+<script src="./assets/app.js"></script>
+</body>
+</html>

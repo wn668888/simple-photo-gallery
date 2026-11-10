@@ -1,0 +1,14 @@
+node_modules/
+.vercel/
+.env
+.env.local
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
+.workbuddy/
+
+# 部署密钥（不提交）
+.deploy/
